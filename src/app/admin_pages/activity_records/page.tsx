@@ -64,7 +64,8 @@ export default function Activity_Records() {
               <Table>
                 <TableHeader>
                   <TableRow>
-                    <TableHead className="w-[100px]">Invoice</TableHead>
+                    <TableHead className="w-[100px]">Activity ID</TableHead>
+                    <TableHead> Activity Name</TableHead>
                     <TableHead>Status</TableHead>
                     <TableHead>Method</TableHead>
                     <TableHead className="text-right">Amount</TableHead>
@@ -84,12 +85,6 @@ export default function Activity_Records() {
                     </TableRow>
                   ))}
                 </TableBody>
-                <TableFooter>
-                  <TableRow>
-                    <TableCell colSpan={3}>Total</TableCell>
-                    <TableCell className="text-right">$2,500.00</TableCell>
-                  </TableRow>
-                </TableFooter>
               </Table>
             </div>
           </SidebarInset>
