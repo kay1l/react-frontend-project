@@ -53,7 +53,7 @@ const data = {
       items: [
         {
           title: "Activity Records",
-          url: "#",
+          url: "/admin_pages/activity_records",
         },
         {
           title: "Activity Matrix",
